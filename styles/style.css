@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --principal-pink: hsl(358, 66%, 70%);
+    --buttons-pink: hsl(0, 79%, 65%);
+    --opcional-pink: hsl(356, 73%, 85%);
+    --black-font: hsl(0, 4%, 14%);
+    --white-main: hsl(0, 0%, 99%);
+    --font-headers: 'Montserrat', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    --font-body: 'Roboto', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: var(--white-main);
+    font-family: var(--font-body);
+}
+
+
+/* H E A D E R  Start */
+
+#header {
+    background-color: var(--white-main);
+    padding: 1em 5em;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+}
+
+.header_picture {
+    width: 150px;
+}
+
+.logo_img {
+    width: 100%;
+    height: auto;
+}
+
+.nav_menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--black-font);
+    font-weight: 500;
+}
+
+.btn {
+    padding: .8em 2.5em;
+    border-radius: 5px;
+    border: none;
+}
+
+.header__btn {
+    background-color: var(--buttons-pink);
+}
+
+.header__btn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* H E A D E R  End */
+
+/* H E R O  Start */
+
+.hero {
+    padding: 1em 8em;
+    width: 100%;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 100%;
+}
+
+.hero__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero__title {
+    font-size: 4em;
+    white-space: pre-line;
+    font-weight: 500;
+    color: var(--principal-pink);
+    margin: 0;
+}
+
+.hero__paragraph {
+    line-height: 1.3;
+    white-space: pre-line;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero__actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__cta {
+    background-color: var(--buttons-pink);
+    padding: 1em 5em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+    margin-right: 20px;
+}
+
+.fa-brands {
+    font-size: 20px;
+}
+
+.hero__picture {
+    width: 40%;
+}
+
+.hero__img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* H E R O  Start */
